@@ -1,0 +1,50 @@
+/* Establecer fondo negro para toda la página */
+body {
+    background-color: #000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 232, 32);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+/* Establecer imagen GIF como fondo solo para el contenido */
+.background-container {
+    background-image: url('background.gif');
+    background-size: contain; /* Ajustar imagen al tamaño del contenedor */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px; /* Espaciado interno para asegurar visibilidad */
+    width: 600px; /* Ancho fijo para la imagen */
+    height: 400px; /* Alto fijo para la imagen */
+}
+
+.container {
+    text-align: center; /* Centrar el contenido */
+}
+
+#gameArea, #resultArea {
+    margin-top: 20px;
+}
+
+#guessText {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn-purple {
+    background-color: purple; /* Color púrpura para los botones */
+    color: white; /* Texto blanco */
+    border-color: purple; /* Borde púrpura */
+}
+
+.btn-purple:hover {
+    background-color: #800080; /* Color púrpura oscuro al pasar el mouse */
+    border-color: #800080; /* Borde púrpura oscuro */
+}
